@@ -1,31 +1,16 @@
 /*  your css code here. If applicable */
-.middle{
-    margin: auto;
-    width: 60%;
+table ,td,tr{
+	border: 1px solid black;
+	width:100%;
+	height:15px;
+	table-layout: fixed;
 }
-
-.center{
-    text-align: center;
+#t31{
+	background-color : green;
+	border : hidden;
+	
 }
-
-.right{
-    text-align: right;
-}
-
-table{
-    border: 1px solid black;
-    border-spacing: 1px;
-}
-
-td{
-    padding: 1px;
-    border: 1px solid black;
-}
-
-.green{
-    background-color: green;
-}
-
-.blue{
-    background-color: blue;
+#t33{
+		background-color : blue;
+	     border : hidden
 }
